@@ -1,3 +1,7 @@
+#### Introduction
+研究证明单细胞测序可以用于研究线粒体中的体细胞突变，并根据这些突变寻找细胞间的种系关系。
+此脚本用于统计celescope标准分析后，线粒体测序样本中高频突变的分布以及比较基于转录本测序后TSNE分群与基于线粒体突变构建的进化树的对应情况
+
 #### Conda env
 
 Path:/SGRNJ03/randd/user/fuxin/PROJECTS/MT_lineage/MT_lineage/mt_lineage_r41.yml
