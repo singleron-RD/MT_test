@@ -23,7 +23,7 @@ eg.
 
 统计HFV并画出AF的热图:
 
-    python MT_lineage.py \
+    python /SGRNJ03/randd/user/fuxin/PROJECTS/MT_lineage/MT_lineage/MT_lineage.py \
     --MT_directory /SGRNJ03/randd/RD20081701_SCOPEv2_Dynaseq/20211019_s/S_Poly_MT_9mito_1015 \
     --outdir /Personal/fuxin/dfuxin/PROJECTS/MT_lineage/res/test_pipline/S_Poly_MT_9mito_1015 \
     --run_stat True \
