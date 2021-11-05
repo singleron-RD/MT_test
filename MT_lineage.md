@@ -4,11 +4,7 @@
 
 #### Conda env
 
-Path:/SGRNJ03/randd/user/fuxin/PROJECTS/MT_lineage/MT_lineage/mt_lineage_r41.yml
-
-    根据yml文件创建环境：conda env create -f  file.yml
-    根据yml文件更新环境：conda env update <env_name> -f file.yml
-
+    conda activate mt_lineage
 
 #### Usage
 
@@ -30,6 +26,11 @@ eg.
     python MT_lineage.py \
     --MT_directory /SGRNJ03/randd/RD20081701_SCOPEv2_Dynaseq/20211019_s/S_Poly_MT_9mito_1015 \
     --outdir /Personal/fuxin/dfuxin/PROJECTS/MT_lineage/res/test_pipline/S_Poly_MT_9mito_1015 \
-    --run_stat True
+    --run_stat True \
+    --run_lineage True
+ 
+ Note:
+ 
+ 当cluster数大于16时，会报错。
 
 
