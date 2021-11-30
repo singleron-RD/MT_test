@@ -17,6 +17,8 @@ Path: /SGRNJ03/randd/user/fuxin/PROJECTS/MT_lineage/MT_lineage
         --outdir    输出文件路径
         --run_stat  True,统计Var,并画出HFV的heatmap图，默认False
         --run_lineage True,输入10x矩阵，进行seurat标准分析，并做出lineage tree,默认False(要执行这一步，需要输入 trans_directory)
+        --germline_threshold    max_genotype_cell_number / covered_cell_number <= germline_threshold, default=0.95
+        --coverage_threshold    covered_cell_number / total_cell_number >= coverage_threshold, default=0.9
 
 
 eg.
@@ -27,7 +29,9 @@ eg.
     --MT_directory /SGRNJ03/randd/RD20081701_SCOPEv2_Dynaseq/20211019_s/S_Poly_MT_9mito_1015 \
     --outdir /Personal/fuxin/dfuxin/PROJECTS/MT_lineage/res/test_pipline/S_Poly_MT_9mito_1015 \
     --run_stat True \
-    --run_lineage True
+    --run_lineage True \
+    --germline_threshold 0.99 \
+    --coverage_threshold 0.5
  
  Note:
  
